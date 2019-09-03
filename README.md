@@ -51,11 +51,11 @@
 }
 
 @mixin md {
-	@media (max-width:$screen-md-max) { @content; }
+  @media (max-width:$screen-md-max) { @content; }
 }
 
 @mixin sm {
-	@media (max-width:$screen-sm-max) { @content; }
+  @media (max-width:$screen-sm-max) { @content; }
 }
 
 @mixin xs {
